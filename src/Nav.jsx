@@ -14,8 +14,6 @@ class Nav extends React.Component{
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <a className="nav-item nav-link active" href="#">Downloader <span class="sr-only">(current)</span></a>
-                    <a className="nav-item nav-link" href="#">About</a>
-                    <a className="nav-item nav-link" href="#">Contributors</a>   
                 </div>
             </div>
             </nav>
