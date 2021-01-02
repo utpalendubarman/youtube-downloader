@@ -1,6 +1,6 @@
 # Youtube Downloader
 
-Onlie Youtube Downloader is a web application to download [Youtube](https://youtube.com) videos in MP4 and MP4 format.
+Online Youtube Downloader is a web application to download [Youtube](https://youtube.com) videos in MP4 and MP4 format.
 
 ## Have this project
 ### `Fork it`
