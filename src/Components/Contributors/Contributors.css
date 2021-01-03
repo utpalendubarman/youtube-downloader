@@ -1,0 +1,55 @@
+.Contributors {
+    margin               : 2rem 0rem 3rem 0rem;
+    display              : grid;
+    justify-items        : center;
+    justify-content      : center;
+    align-items          : center;
+    gap                  : 2rem;
+    grid-template-columns: repeat(auto-fill, 18rem);
+}
+
+.Contributor {
+    text-decoration: none;
+    color          : rgb(53, 49, 49);
+    padding        : .6rem 0rem;
+}
+
+.Contributor:hover {
+    text-decoration: none;
+    color          : rgb(53, 49, 49);
+    opacity        : .8;
+}
+
+.Contributor__Image {
+    border-radius: 50%;
+    object-fit   : cover;
+    height       : 15rem;
+    width        : 15rem;
+    margin-bottom: 1rem;
+}
+
+.Contributor__Name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size  : 1.5rem;
+    text-align : center;
+}
+
+.backButton,
+.backButton:hover {
+    text-decoration: none;
+    color          : white;
+}
+
+.backButton {
+    display         : block;
+    text-align      : center;
+    background-color: rgb(108, 187, 29);
+    padding         : .8rem 1rem;
+    width           : 10rem;
+    margin-left     : 50%;
+}
+
+.backButton:hover {
+    background-color: rgb(64, 116, 13);
+    box-shadow      : 1px 1px 5px 3px grey;
+}
