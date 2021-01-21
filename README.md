@@ -5,6 +5,7 @@ Online Youtube Downloader is a web application to download [Youtube](https://you
 ## Have this project
 ### `Fork it`
 ### `cd youtube-downloader`
+### `npm install`
 ### `npm start`
 
 **Note: Make sure react installed**
