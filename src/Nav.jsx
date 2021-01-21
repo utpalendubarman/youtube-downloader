@@ -13,11 +13,13 @@ class Nav extends React.Component{
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <Link className="nav-item nav-link active" to="/">Downloader <span class="sr-only">(current)</span></Link>
-                </div>
-                <div className="navbar-nav">
-                    <Link className="nav-item nav-link active" to="/contribution">Contribution <span class="sr-only">(current)</span></Link>
+                <div className="navbar-nav ml-auto">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link active" href="#">Downloader</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Contributors</a>
+                    
+            </nav>
                 </div>
             </div>
             </nav>
