@@ -1,7 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Nav from './Nav'
 import './style.css'
+
 class Downloader extends React.Component{
     constructor(props){
         super(props);
@@ -21,7 +20,6 @@ class Downloader extends React.Component{
     render(){
         return(
             <div className="wrapper">
-                <Nav/>
                 <div id='data'></div>
                 <div className="container">
                     <div className="row">
