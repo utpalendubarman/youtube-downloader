@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+  #showcase{
+    background-image:url(/youtube-downloader/public/youth.jpg);
+    background-size:cover;
+    max-width: 100%;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:text-center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:90px;
+    font-family: 'Kaushan Script', cursive;
+    line-height:1.2;
+    color:rgb(236, 217, 214);
+    position: absolute;
+    left:469px;
+    top:515px;
+    font-weight: 700;
+  }
+  
+  #showcase p{
+    font-size:35px;
+    font-weight:bold;
+    font-style:italic;
+  }
+  
+  #showcase .button{
+    font-size:35px;
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration:none;
+    color:#db2424;
+    border:#bdad9c 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:40px;
+    position:absolute;
+    left:930px;
+    top:500px;
+  }
+  
+  #showcase .button:hover{
+    background:#29af3b;
+    color:rgb(253, 243, 243);
+    
+  }
+  
+  @media screen and (min-width: 601px) {
+    html.body.header.h1{
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    html.body.header.h1{
+      font-size: 30px;
+    }
+  }
+  #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+  
+  #section-b{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+  }
+  
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:#926239;
+    color:#fff;
+  }
+  
+  #section-c .box-2{
+    background:#f9f9f9;
+  }
