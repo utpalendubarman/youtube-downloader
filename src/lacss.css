@@ -37,13 +37,15 @@
   }
   
   #showcase h1{
-    font-size:90px;
+    font-size:100px;
     font-family: 'Kaushan Script', cursive;
     line-height:1.2;
     color:rgb(236, 217, 214);
     position: absolute;
-    left:469px;
-    top:515px;
+    text-align: bottom;
+    margin-top: 260px;
+    margin left:900px;
+
     font-weight: 700;
   }
   
@@ -52,38 +54,40 @@
     font-weight:bold;
     font-style:italic;
   }
+  @media(max-width: 768px){
+      header #showcase,header #showcase.button{
+          float:none;
+          text-align:bottom;
+          width:100%;
+      }
+  }
   
   #showcase .button{
-    font-size:35px;
-    font-family: 'Yusei Magic', sans-serif;
-    text-decoration:none;
     color:#db2424;
-    border:#bdad9c 1px solid;
-    padding:10px 20px;
-    border-radius:10px;
-    margin-top:40px;
-    position:absolute;
-    left:930px;
-    top:500px;
-  }
+    border:#161412 1px solid;
+    position: absolute;
+    top: 87%;
+    left: 49%;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    -webkit-border-radius: 8;
+    border-radius: 8px;
+    font-size: 26px;
+    background: #dde2e6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.7s;
+    /* For Safari Browser */
+    transition-duration: 0.7s;
+    border: none;
+}
   
   #showcase .button:hover{
     background:#29af3b;
     color:rgb(253, 243, 243);
     
-  }
-  
-  @media screen and (min-width: 601px) {
-    html.body.header.h1{
-      font-size: 80px;
-    }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    html.body.header.h1{
-      font-size: 30px;
-    }
   }
   #section-a{
     padding:20px;
