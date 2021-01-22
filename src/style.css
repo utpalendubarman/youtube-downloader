@@ -1,10 +1,18 @@
 .container{
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 500px;
+    align-items: center;
+    
+    
 }
 
 .navbar{
     background-color:rgba(0, 0, 0, 0.76);
-  font-weight: bold;
-  font-style: oblique;
+    font-weight: bold;
+    font-style: oblique;
   }
+  
+ .box{
+     width: 500px;
+     border: 1px solid black;
+ }
