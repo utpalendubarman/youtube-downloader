@@ -22,8 +22,8 @@ class Downloader extends React.Component{
             <div className="wrapper">
                 <div id='data'></div>
                 <div className="container">
-                    <div className="row">
-                        <form onSubmit={this.submitForm}>
+                    <div className="row justify-content-center">
+                        <form onSubmit={this.submitForm} className="box">
                             <div className="col-sm-8 col-xs-12 col-md-12">
                                 <div className="form-group">
                                     <label>URL</label>
