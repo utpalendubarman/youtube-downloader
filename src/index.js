@@ -11,9 +11,10 @@ const App = () =>{
   return (
     <Router>
       <Nav/>
+      <Route path='/' exact={true} component={Downloader} />
       <Switch>
-        <Route path="/contribution" component ={Contribution}/>
-        <Route path='/' exact component={Downloader}/>
+        <Route path="/Contribution" component ={Contribution}/>
+        <Route path="/Downloader" exact component={Downloader}/>
       </Switch>
     </Router>
     

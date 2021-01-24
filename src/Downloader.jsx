@@ -19,7 +19,7 @@ class Downloader extends React.Component{
     }
     render(){
         return(
-            <div className="wrapper">
+             <div className="wrapper">
                 <div id='data'></div>
                 <div className="container">
                     <div className="row justify-content-center">
