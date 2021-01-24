@@ -15,9 +15,9 @@ class Nav extends React.Component{
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ml-auto">
                 <nav class="nav nav-pills flex-column flex-sm-row">
-                    <a class="flex-sm-fill text-sm-center nav-link active" href="#">Downloader</a>
+                    <a class="flex-sm-fill text-sm-center nav-link active" href="/Downloader">Downloader</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Contributors</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="/Contribution">Contributors</a>
                     
             </nav>
                 </div>
