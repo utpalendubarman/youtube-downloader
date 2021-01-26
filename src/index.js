@@ -6,6 +6,7 @@ import Downloader from './Downloader'
 import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
 import Contribution from './Contribution';
+import Footer from './Footer';
 
 const App = () =>{
   return (
@@ -16,6 +17,7 @@ const App = () =>{
         <Route path="/Contribution" component ={Contribution}/>
         <Route path="/Downloader" exact component={Downloader}/>
       </Switch>
+      <Footer/>
     </Router>
     
   );

@@ -3,7 +3,8 @@ import './index.css'
 class Contribution extends React.Component {
     render(){
         return (
-            <div class="row">
+          
+            <div class="row justify-content-center">
             <div class="profile-container">
           <div class="profile-card">
               <img src="https://avatars.githubusercontent.com/u/47846069?s=460&u=62e0076f7db1440795ff342a1dc25f5629097e6a&v=4" alt="image1" class="profile-icon" />
@@ -43,7 +44,7 @@ class Contribution extends React.Component {
             </div>
          </div>
          
-          
+ 
        
         )
     }
