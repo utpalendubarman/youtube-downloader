@@ -8,7 +8,7 @@ class Footer extends React.Component{
           <div className="main-footer">
           <div className="container">
             <div className="row">
-              {/* Column1 */}
+            
               <div className="col">
                 <h2 className = "text">Youtube Downloader</h2>
                 <h4 className="list-unstyled">
