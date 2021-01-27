@@ -7,6 +7,7 @@ import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
 import Contribution from './Contribution';
 import Footer from './Footer';
+import About from './About';
 
 const App = () =>{
   return (
@@ -16,6 +17,7 @@ const App = () =>{
       <Switch>
         <Route path="/Contribution" component ={Contribution}/>
         <Route path="/Downloader" exact component={Downloader}/>
+        <Route path="/About" exact component={About}/>
       </Switch>
       <Footer/>
     </Router>

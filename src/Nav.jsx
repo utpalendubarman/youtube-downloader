@@ -18,7 +18,7 @@ class Nav extends React.Component{
                 <nav class="nav nav-pills flex-column flex-sm-row">
 
                     <a class="flex-sm-fill text-sm-center nav-link active" href="/Downloader">Downloader</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="/About">About</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="/Contribution">Contributors</a>
                     
 
