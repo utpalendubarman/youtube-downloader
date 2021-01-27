@@ -20,7 +20,8 @@ class Footer extends React.Component{
             <div className="row">
               <p className="col-sm">
                 &copy;{new Date().getFullYear()}  Copyright | All rights reserved |
-                Terms Of Service | Privacy
+                <a href ="/service">
+                Terms Of Service </a> | Privacy
               </p>
             </div>
           </div>
