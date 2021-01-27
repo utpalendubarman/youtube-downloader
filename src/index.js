@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Contribution from './Contribution';
 import Footer from './Footer';
 import About from './About';
+import service from './service';
 
 const App = () =>{
   return (
@@ -18,6 +19,7 @@ const App = () =>{
         <Route path="/Contribution" component ={Contribution}/>
         <Route path="/Downloader" exact component={Downloader}/>
         <Route path="/About" exact component={About}/>
+        <Route path="/service" exact component={service}/>
       </Switch>
       <Footer/>
     </Router>

@@ -140,3 +140,25 @@
     color: black;
     font-weight: bold;
 }
+.content {
+    width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    
+  }
+  
+  .main {
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .space {
+    width: 600px;
+    margin: 50px auto;
+    
+    padding: 10px;
+  }
+  
