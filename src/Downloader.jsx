@@ -35,11 +35,11 @@ class Downloader extends React.Component{
 
         function setStyle(type){
             $('.y_thumb').attr("class","y_thumb col-sm-12 col_md_12 col_xs_12");
-            $('.title').attr('style','font-size:20px;margin:5px;font-weight:600;');
+            $('.title').attr('style','font-size:20px;padding:5px;margin:5px;font-weight:600;');
             $('.tab-inner').html("");
-            $('#tab_video').attr('style','margin:5px');
+            $('#tab_video').attr('style','margin:5px;padding:5px;');
             $('#tab_video').attr('class','table');
-            $('#tab_mp3').attr('style','margin:5px');
+            $('#tab_mp3').attr('style','margin:5px;padding:5px;');
             $('#tab_mp3').attr('class','table table-striped');
             $('.btn-sm').attr('style','background-color:rgb(255,0,0);border:none');
             if(type==="mp3"){
@@ -56,8 +56,10 @@ class Downloader extends React.Component{
     }
     render(){
         return(
-             <div className="wrapper">
-                <div id='data'></div>
+             <div className="mx-auto">
+                 <div className="databox mx-auto col-md-12  justify-content-center">
+                    <div id='data'></div>
+                </div>                
                 <div className="container">
                     <div className="row justify-content-center">
                         <form id="formbox" className="box">
