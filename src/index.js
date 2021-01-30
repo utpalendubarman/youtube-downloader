@@ -9,6 +9,7 @@ import Contribution from './Contribution';
 import Footer from './Footer';
 import About from './About';
 import service from './service';
+import privacy from './privacy';
 
 const App = () =>{
   return (
@@ -20,6 +21,7 @@ const App = () =>{
         <Route path="/Downloader" exact component={Downloader}/>
         <Route path="/About" exact component={About}/>
         <Route path="/service" exact component={service}/>
+        <Route path="/privacy" exact component={privacy}/>
       </Switch>
       <Footer/>
     </Router>
